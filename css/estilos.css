@@ -1,0 +1,424 @@
+.background-image {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../assets/background-image.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  opacity: 100%;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 170px;
+}
+
+.hijo {
+  text-align: center;
+}
+
+.logo {
+  height: 49px;
+  width: 130.92px;
+  opacity: 100%;
+  margin-bottom: 36px;
+}
+
+.h-1 {
+  height: 36px;
+  width: 637px;
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 0px auto 15px auto;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.p {
+  height: 38px;
+  width: 800px;
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: normal;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.rectangle {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  margin: 146px auto;
+  border: 1px solid #888;
+  width: 800px;
+  height: 344px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.close {
+  margin: 12px 18px 0 0;
+  color: #B73131;
+  font-family: Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  box-sizing: border-box;
+  float: right;
+  cursor: pointer;
+}
+
+.modal-padre {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  margin: 0px;
+}
+
+.modal-izquierda {
+  margin: 75px 0px 0px 61px;
+  text-align: left;
+}
+
+.logoModal {
+  height: 29px;
+  width: 77.49px;
+}
+
+.span {
+  height: 92px;
+  width: 339px;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 96px;
+  margin-bottom: 4px;
+}
+
+p {
+  margin: 0px;
+}
+
+.h-2 {
+  height: 24px;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.h-2:after {
+  display: inline-block;
+  margin: 0 0 5px 9px;
+  height: 1px;
+  width: 150px;
+  content: "";
+  box-sizing: border-box;
+  background-color: #999;
+}
+
+.modal-derecha {
+  margin: 89px 0px 215px 31px;
+  text-align: left;
+}
+
+.email {
+  height: 40px;
+  width: 305px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  background-color: #EAEAEA;
+  padding-left: 13px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.email:focus {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+.email::placeholder {
+  height: 17px;
+  width: 36px;
+  color: #CCCCCC;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: oblique;
+}
+
+.checkContendor {
+  overflow: hidden;
+}
+
+.check {
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  background-color: #F2F2F2;
+  margin-right: 8px;
+  float: left;
+}
+
+.condiciones {
+  height: 14px;
+  color: #666666;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: oblique;
+}
+
+.politica {
+  color: #B73131;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.abrirModal {
+  height: 57px;
+  width: 189px;
+  border-radius: 28.5px;
+  background-color: #B73131;
+  opacity: 100%;
+  border: 0px;
+  outline: none;
+}
+
+.abrirModal:hover {
+  background-color: #891B1B;
+  cursor: pointer;
+}
+
+.inBoton {
+  height: 17px;
+  width: 91px;
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.suscribe {
+  height: 38.37px;
+  width: 127.22px;
+  border-radius: 28.5px;
+  border: 0px;
+  outline: none;
+  background-color: #B73131;
+  opacity: 100%;
+  float: right;
+  margin-top: 27px;
+}
+
+.suscribe:hover {
+  background-color: #891B1B;
+  cursor: pointer;
+}
+
+.inBotonModal {
+  height: 13px;
+  width: 71px;
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cargando {
+  animation: 3s rotate linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.error {
+  display: none;
+  height: 17px;
+  color: #E34F45;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+.error2 {
+  display: none;
+  height: 17px;
+  color: #E34F45;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+.rechazado {
+  display: none;
+  height: 17px;
+  color: #E34F45;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+.resuelto {
+  display: none;
+  height: 17px;
+  color: #E34F45;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .background-image {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../assets/background-image-mobile.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+  }
+
+  .contenedor {
+    padding-top: 157px;
+  }
+
+  .hijo {
+    width: 320px;
+  }
+
+  .logo {
+    height: 30px;
+    width: 80.16px;
+    margin-bottom: 35px;
+  }
+
+  .h-1 {
+    height: 58px;
+    width: 320px;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 0px auto 14px auto;
+  }
+
+  .p {
+    height: 68px;
+    width: 320px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .rectangle {
+    width: 320px;
+    height: 510px;
+  }
+
+  .modal-padre {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 30px;
+    padding-top: 75px;
+    margin: 0px;
+  }
+
+  .modal-izquierda {
+    margin: 0px;
+  }
+
+  .modal-derecha {
+    margin: 0px;
+  }
+
+  .logoModal {
+    margin-bottom: 18px;
+  }
+
+  .span {
+    height: 72px;
+    width: 219px;
+    font-size: 60px;
+    letter-spacing: -0.75px;
+    line-height: 72px;
+    margin-bottom: 8px;
+  }
+
+  .h-2 {
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-bottom: 39px;
+  }
+
+  .h-2:after {
+    height: 1px;
+    width: 105px;
+  }
+
+  .email {
+    width: 260px;
+    padding-left: 13px;
+    margin-bottom: 23px;
+  }
+
+  .suscribe {
+    width: 260px;
+    background-color: #B73131;
+    opacity: 100%;
+    float: center;
+    margin-top: 28px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

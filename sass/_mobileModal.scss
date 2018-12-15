@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px){
+    
+    // Modal 
+
+    .rectangle  {
+        width: 320px; 
+        height: 510px;
+    } 
+    .modal-padre{
+        display:flex;
+        flex-flow:row wrap;
+        padding-left: 30px;
+        padding-top: 75px;
+        margin: 0px;
+    }
+    .modal-izquierda {
+        margin: 0px;        
+      }
+    .modal-derecha {
+        margin: 0px;
+    }
+    .logoModal{
+        margin-bottom: 18px;
+    }
+    .span{
+        height: 72px;	
+        width: 219px;
+        font-size: 60px;
+        letter-spacing: -0.75px;
+        line-height: 72px;
+        margin-bottom: 8px;   
+    }
+    .h-2 {
+        height: 19px;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 19px;
+        margin-bottom: 39px;
+    }
+    .h-2:after {
+        height: 1px;
+        width: 105px;
+    }
+    .email {
+        width: 260px;
+        padding-left: 13px;
+        margin-bottom: 23px;
+    }
+    .suscribe {
+        width: 260px;
+        background-color: $rojo;
+        opacity: 100%;
+        float: center;
+        margin-top: 28px;
+        
+    }    
+   
+}

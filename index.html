@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1">
+	<title>UI Challenge</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+		crossorigin="anonymous" > </script>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+</head>
+
+<body class="background-image ">
+	
+	<!-- Seccion Contenido  -->
+	<section class="contenedor">
+		
+		<div class="hijo">
+
+			<div><img class="logo" src="assets/logo.svg" alt="logo"></div> 
+			
+			<h1 class="h-1">Suscríbete y accede a increíbles descuentos</h1>
+			
+			<p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				Aenean venenatis fringilla est, non finibus ligula convallis quis. 
+				Etiam tempor tincidunt mauris, a tempus ipsum ultrices eu.</p>
+			
+				<button class="abrirModal" id="abrirModal"><span class="inBoton">SUSCRÍBETE</span></button>
+
+			<!-- Modal -->
+			<div id="miModal" class="modal">
+
+				<!-- Contenido Modal -->
+				<div class="rectangle">
+					
+					<!-- Etiqueta cierre  -->
+					<div id="cerrar" class="close">&times;</div>
+					
+					<!-- Se agrupa para generar 2 columnas  -->
+					<div class="modal-padre">
+
+						<!-- Columna izquierda  -->
+						<div class="modal-izquierda">
+							
+							<img class="logoModal" src="assets/logoModal.svg" alt="logo">
+							
+							<p class="span">50% Off</p>
+							
+							<h2 class="h-2">en tu inbox ;) </h2>
+						
+						</div>
+
+						<!-- Columna derecha  -->
+						<div class="modal-derecha">
+							
+							<!-- Moficar url con el dominio del sitio y agregar /api/email.php -->
+						 	<form action="http://ui-challenge.com/api/email.php" method="POST" id="form"> 
+								
+								<input class="email" type="email" name="email" id="email" placeholder="Email"><br>
+								
+								<!-- Mensaje de error email vacio  -->
+								<p class="error" id="error">Introduce tu Email</p>
+								
+								<div class="checkContendor">								
+								
+									<input class="check" type="checkbox" name="check" id="check" value="ok">
+									
+									<span class="condiciones">
+										Acepto la 
+										<a href="#" class="politica">Política de Privacidad</a> 
+										de Store.</span>															
+								
+								</div>
+								
+								<!-- Mensajes al no tildar el checkbox 	 -->
+								<p class="error2" id="error2">Debes aceptar la política</p>	
+								
+								<button type="submit" class="suscribe" id="suscribe">
+									
+									<span class="inBotonModal" id="inBotonModal">SUSCRÍBETE</span>
+								
+								</button>
+							
+							</form>
+							
+							<div> <!-- Se agregan mensajes de resultado de la suscripcion luego de la validacion en el backend... 
+							...para mejorar la comprension del usuario y evitar una doble registro -->
+								<p class="resuelto" id="resuelto">Suscripcion exitosa</p>
+								<p class="rechazado" id="rechazado">Ouch!, intenta nuevamente</p>							
+							
+							</div>
+						
+						</div>
+					
+					</div>
+				
+				</div>
+			
+			</div>
+		
+		</div>
+	
+	</section>
+
+</body>
+
+</html>

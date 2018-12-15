@@ -1,0 +1,96 @@
+.modal-padre{
+    display:flex;
+    flex-flow:row wrap;
+    padding: 0px;
+    margin: 0px;
+}
+.modal-izquierda {
+  margin: 75px 0px 0px 61px;
+  text-align: left;
+  
+}
+.logoModal{
+    height: 29px;
+    width: 77.49px;
+}
+.span {
+	height: 92px;
+	width: 339px;
+	color: $negroFuerte;
+	font-family: $font-stack;
+	font-size: 80px;
+	font-weight: bold;
+	letter-spacing: -1px;
+    line-height: 96px;
+    margin-bottom: 4px;    
+}
+p{ margin: 0px;} // Ajuste margenes parrafo 
+
+.h-2 {
+	height: 24px;
+	color: $negroFuerte;
+	font-family: $font-stack;
+	font-size: 20px;
+	font-weight: bold;
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+.h-2:after {
+    display: inline-block;
+    margin: 0 0 5px 9px;
+	height: 1px;
+	width: 150px;
+    content: "";
+    box-sizing: border-box;
+    background-color: $grisClaro;
+}
+.modal-derecha {
+    margin: 89px 0px 215px 31px;
+    text-align: left;
+}
+.email {
+	height: 40px;
+	width: 305px;
+	border: 1px solid $gris;
+	border-radius: 3px;
+    background-color: $crudo;
+    padding-left: 13px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.email:focus{
+    background-color:$blanco;
+    color: $negroFuerte;
+}
+.email::placeholder  {
+	height: 17px;
+	width: 36px;
+	color: $gris;
+	font-family: $font-stack;
+	font-size: 14px;
+    font-style: oblique;
+}
+.checkContendor{
+    overflow: hidden;
+}
+.check {
+	height: 16px;
+	width: 16px;
+	border-radius: 2px;
+    background-color: $perlado;
+    margin-right: 8px;
+    float: left;
+}
+.condiciones{
+        height: 14px;
+        color: $grisFuerte;
+        font-family: $font-stack;
+        font-size: 12px;
+        font-style: oblique;        
+}
+.politica{
+    color: $rojo;
+    cursor: pointer;
+    text-decoration: none;
+}

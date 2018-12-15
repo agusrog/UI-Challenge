@@ -1,0 +1,50 @@
+.background-image {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../assets/background-image.jpg");
+    background-color: $negroMedio;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    width: 100%;
+    height: 700px;
+    opacity: 100%;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 170px;
+  }
+.hijo{
+    text-align: center;
+}
+.logo {
+  height: 49px;
+  width: 130.92px;
+  opacity: 100%;
+  margin-bottom: 36px;
+}
+.h-1{
+    height: 36px;
+    width: 637px;
+    color: $blanco;
+    font-family: $font-stack;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0px auto 15px auto;
+    text-align: center;
+    letter-spacing: normal;   
+}
+.p{
+    height: 38px;
+    width: 800px;
+    color: $blanco;
+    font-family: $font-stack;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;   
+    margin-bottom: 30px;
+    letter-spacing: normal;    
+}

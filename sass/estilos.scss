@@ -1,0 +1,16 @@
+@import 'colores'; // Se guardan todas las variables de colores;
+@import 'fuente'; // Se guardan lot tipos de fuentes;
+@import 'home'; // Incluye todos los estilos de la primera vista antes de abrir el modal;
+@import 'modal'; // Estilos del modal desplegado, pero solo la estructura del cuadro, no el interior;
+@import 'contenidoModal'; // Estilos dentro del modal, columnas de izquierda y derecha;
+@import 'botones'; // Incluye los botones de suscribe del home y dentro del modal;
+@import 'mensajes'; // mensajes de alerta al no completar los campos y tambien mensajes de...
+// ...respuestas del controlador al validar el email de suscripcion en el backend; 
+@import 'mobileHome'; // Se guarda los estilos del diseño responsive del home;
+@import 'mobileModal'; // Se guarda los estilos del diseño responsive del modal;
+
+
+
+
+
+    

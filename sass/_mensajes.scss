@@ -1,0 +1,21 @@
+@mixin error(){
+    display: none;
+    height: 17px;
+    color: $anaranjado;
+    font-family: $font-stack;
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+}
+.error{
+    @include error();
+}
+.error2{
+    @include error();
+}
+.rechazado{
+    @include error();
+}
+.resuelto{
+    @include error();
+}
