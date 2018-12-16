@@ -21,7 +21,7 @@
         
             if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
                 $myJSON = json_encode($email);
-                mail($myJSON,"Susctipcion","Gracias por suscribirte");
+                mail($myJSON,"Suscripcion","Gracias por suscribirte");
                 echo true;
 
 /* Los errores se pasan como string y se activan alerta de Ouch! en el formulario. 
